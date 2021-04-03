@@ -1,0 +1,73 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+.App {
+  font-family: sans-serif;
+  text-align: center;
+}
+.slick-slide:nth-child(1) {
+  background: orangered;
+}
+
+.slick-slide:nth-child(2) {
+  background: blueviolet;
+}
+
+.slick-slide:nth-child(3) {
+  background: yellow;
+}
+
+.slick-slide:nth-child(4) {
+  background: purple;
+}
+.slick-slider {
+  /* padding: 10px; */
+}
+.slick-slider span {
+  width: 40%;
+  display: inline-block;
+  padding: 2.5%;
+  margin: 2.5%;
+  background: white;
+}
+/* :nth-child(2) {
+  background: red;
+} */
+.slick-dots li {
+  list-style: none;
+  width: 30px;
+  height: 5px;
+  overflow: hidden;
+  display: inline-block;
+}
+.slick-dots li button {
+  width: 30px;
+  height: 5px;
+  background-color: aqua;
+  display: inline-block;
+  margin: 0 5px;
+}
+
+.banner .slick-slide {
+  width: 100%;
+  height: 500px;
+}
+.banner h3 {
+  text-align: center;
+  vertical-align: middle;
+  display: block;
+  padding: 40% 0;
+}
+
+.slick-slide h2 {
+  border: 10px solid white;
+  height: 200px;
+  vertical-align: center;
+  text-align: center;
+  overflow: hidden;
+}
+.static {
+  height: 300px;
+  background: beige;
+}
